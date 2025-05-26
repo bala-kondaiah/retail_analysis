@@ -4,22 +4,22 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                echo "build completed successful"
+                echo "build completed successfull"
             }
         }
         stage('Test'){
             steps {
-                echo "test completed successful"
+                echo "test completed successfull"
             }
         }
         stage('Package'){
             steps {
-                echo "Package completed successful"
+                echo "Package completed successfull"
             }
         }
         stage('Deploy'){
             steps {
-                echo "Deploy completed successful"
+                echo "Deploy completed successfull"
             }
         }
     }
